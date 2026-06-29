@@ -1,0 +1,9 @@
+Q.5
+
+Compare your procedural C version and OOP TaskList version: List 3 problems you faced in the C version that were solved by using classes and methods in the OOP version.
+
+
+
+C has no classes, while OOP groups data and functions inside classes.
+C uses global variables, while OOP stores data inside objects for better organization.
+OOP methods make the code reusable and easier to maintain compared to procedural C.

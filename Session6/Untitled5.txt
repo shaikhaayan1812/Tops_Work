@@ -1,0 +1,12 @@
+Difference Between Encapsulation and Abstraction
+
+
+Encapsulation:
+
+Data ko hide karke sirf getter aur setter methods se access karna.
+Example: Instagram me phone number ya password private hota hai aur direct access nahi hota.
+
+Abstraction:
+
+User ko sirf important features dikhana aur internal working ko hide karna.
+Example: WhatsApp me sirf Send button dikhai deta hai. Message background me kaise network se deliver hota hai, wo user ko nahi dikhaya jata.
