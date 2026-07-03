@@ -1,0 +1,42 @@
+Session 1 - Welcome to the IT World
+
+1. Name 5 IT job roles and write one line about what each role does.
+
+Software Developer - Writes and maintains software applications.
+Software Tester (QA) - Tests software to find bugs and ensure quality.
+UI/UX Designer - Designs user-friendly interfaces and user experiences.
+Data Analyst - Analyzes data to help businesses make decisions.
+AI Engineer - Develops artificial intelligence and machine learning solutions.
+
+2. List 3 product companies and 3 service companies with one example of work each does.
+
+Product Companies
+Google - Develops Google Search, Gmail, and Android.
+Zoho - Develops CRM, Mail, and business software.
+Microsoft - Develops Windows, Office, and Azure.
+
+Service Companies
+TCS (Tata Consultancy Services) - Provides software development and IT consulting.
+Infosys - Offers cloud, AI, and software services.
+Wipro - Provides digital transformation and IT support services.
+
+3. Full forms and one-line use
+
+GitHub - Git Hub - Stores code and helps developers collaborate.
+Slack - Searchable Log of All Communication and Knowledge - Team communication and messaging.
+Jira - (Product name, not officially expanded) - Tracks software tasks and bugs.
+IDE - Integrated Development Environment - Used to write, run, and debug code.
+API - Application Programming Interface - Allows different applications to communicate.
+
+4. Name any 5 programming languages and one use case
+
+Python - AI, Data Science, Web Development
+Java - Android Apps, Enterprise Applications
+C++ - Game Development, System Software
+JavaScript - Web Development
+SQL - Database Management
+
+5. Difference between Developer and Tester (2 lines)
+
+A Developer writes and develops software applications.
+A Tester checks the software for bugs and ensures it works correctly.

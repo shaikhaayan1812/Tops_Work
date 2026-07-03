@@ -1,0 +1,51 @@
+Session 5 - Git & Version Control
+
+1. Git Commands
+
+Initialize repository
+git init
+
+Stage all files
+git add .
+
+Commit with message
+git commit -m "Initial commit"
+
+Push to GitHub
+git push origin main
+
+Pull latest changes
+git pull origin main
+
+2. Difference between git fetch and git pull
+
+git fetch downloads the latest changes but does not merge them into your branch.
+git pull downloads and automatically merges the changes into your current branch.
+
+3. Create a GitHub repository
+
+Example format:
+
+Repository Link:
+https://github.com/yourusername/my-first-repo
+
+(Replace yourusername with your actual GitHub username.)
+
+4. Difference between Fork and Pull Request
+
+A Fork creates your own copy of someone else's GitHub repository.
+A Pull Request (PR) requests that your changes be reviewed and merged into another repository.
+
+5. Create branch, commit, and merge
+
+git checkout -b feature-test
+
+git add .
+
+git commit -m "Added new changes"
+
+git checkout main
+
+git merge feature-test
+
+git push origin main

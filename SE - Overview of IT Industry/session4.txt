@@ -1,0 +1,34 @@
+Session 4 - Software Development Lifecycle (SDLC)
+
+1. Six SDLC Phases
+
+Requirement - Gather customer needs.
+Design - Plan the software structure.
+Development - Write the code.
+Testing - Find and fix bugs.
+Deployment - Release software to users.
+Maintenance - Update and improve the software.
+
+2. Agile vs Waterfall
+
+Agile - Flexible, Frequent releases, Customer feedback during development
+Waterfall - Fixed process, One final release, Feedback mostly at the end
+
+3. Scrum Roles
+
+Product Owner (PO) - Defines product requirements and priorities.
+Scrum Master - Helps the team follow Scrum practices.
+Development Team - Designs, develops, and tests the software.
+
+4. Sprint
+
+A Sprint is a short development cycle where a team completes planned work.
+
+Typical Duration: 1-4 weeks (commonly 2 weeks).
+
+5. Jira Board Columns
+
+Backlog - Future tasks waiting to be started
+To Do - Ready to begin
+In Progress - Currently being worked on
+Done - Completed work

@@ -1,0 +1,34 @@
+Session 2 - How Software Works
+
+1. Three main layers of software architecture
+
+UI (User Interface) - The part users interact with.
+Business Logic - Processes user requests and business rules.
+Database - Stores and retrieves application data.
+
+2. Define Client and Server
+
+Client - A device or application that requests data or services.
+Server - A computer that processes requests and sends responses.
+
+Example: A web browser (client) requests a webpage from Google's server.
+
+3. Two differences between Desktop, Web and Mobile Apps
+
+Desktop Apps
+Installed on a computer.
+Can work without internet (many cases).
+
+Web Apps
+Run inside a web browser.
+Usually require internet access.
+
+Mobile Apps
+Installed on smartphones/tablets.
+Can use phone features like GPS and Camera.
+
+4. Name 3 databases
+
+MySQL - SQL
+PostgreSQL - SQL
+MongoDB - NoSQL

@@ -1,0 +1,37 @@
+Session 3 - Internet & Networking Basics
+
+1. Full forms and use
+
+HTTP - HyperText Transfer Protocol - Transfers web pages.
+HTTPS - HyperText Transfer Protocol Secure - Secure web communication.
+FTP - File Transfer Protocol - Transfers files between computers.
+SMTP - Simple Mail Transfer Protocol - Sends emails.
+
+2. Difference between IPv4 and IPv6
+
+IPv4 uses 32-bit addresses (example: 192.168.1.1).
+IPv6 uses 128-bit addresses (example: 2001:db8::1) and supports many more devices.
+
+3. nslookup google.com
+
+Example output:
+
+google.com
+IP Address: 142.250.183.14
+
+(Your IP address may be different.)
+
+4. HTTP Status Codes
+
+200 - OK (Success)
+301 - Moved Permanently
+403 - Forbidden
+404 - Not Found
+500 - Internal Server Error
+
+5. DNS Hierarchy (www.google.com)
+
+Root (.) - Highest level.
+TLD (.com) - Top-Level Domain.
+Domain (google) - Registered domain name.
+Subdomain (www) - Points to the website.
