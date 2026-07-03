@@ -1,0 +1,21 @@
+# Database Comparison: MySQL, PostgreSQL, Oracle, SQLite
+
+1.MySQL
+- Widely used for web applications and LAMP stacks (PHP/Apache). 
+- Suited to small-to-medium websites, e-commerce, and general web backends.
+- Easy to manage and deploy; strong ecosystem and hosting support.
+
+2. PostgreSQL
+- Commonly used for web apps and services that need advanced SQL features.
+- Favored in analytics, geospatial apps, and systems requiring strong data integrity.
+- Scales well for larger applications and offers extensibility (JSON, stored procedures).
+
+3. Oracle
+- Designed for large enterprise systems, banking, and mission-critical applications.
+- Offers advanced security, high-availability, and enterprise tooling.
+- Best for organizations needing commercial support and complex transaction processing.
+
+4. SQLite
+- Lightweight, file-based DB used in mobile apps, small desktop apps, and testing.
+- Zero-configuration and fast for read-heavy local storage scenarios.
+- Not intended for high-concurrency server workloads; excellent for embedded use.

@@ -1,0 +1,1 @@
+2. Constraints are important in personal finance data because they enforce rules such as not allowing negative amounts, requiring valid dates, or ensuring a category exists. They help keep the data valid, reliable, and safe from incorrect entries.

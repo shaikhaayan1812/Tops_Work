@@ -1,0 +1,3 @@
+Section B - Point 1
+
+Foreign keys are used to ensure that data in the expenses table is connected to valid data in the users and categories tables. The user_id in expenses must correspond to a real user_id in users because every expense should belong to an existing user. If foreign keys are removed, an expense could reference a deleted user, creating an orphaned record.

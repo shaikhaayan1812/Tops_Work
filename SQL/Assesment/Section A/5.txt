@@ -1,0 +1,1 @@
+5. Views help users track monthly expenses efficiently by showing a predefined result of data, such as total expenses for each month. Users can access the needed information without writing complex queries each time.

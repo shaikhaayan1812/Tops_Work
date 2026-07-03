@@ -1,0 +1,20 @@
+Section B - Point 3
+
+Display all expenses with details:
+SELECT e.expense_date, e.amount, u.name, c.category_name
+FROM expenses e
+INNER JOIN users u ON e.user_id = u.user_id
+INNER JOIN categories c ON e.category_id = c.category_id;
+
+Show total expense amount per category:
+SELECT c.category_name, SUM(e.amount) AS total_amount
+FROM expenses e
+INNER JOIN categories c ON e.category_id = c.category_id
+GROUP BY c.category_name;
+
+Display users sorted by total spending:
+SELECT u.name, SUM(e.amount) AS total_spending
+FROM expenses e
+INNER JOIN users u ON e.user_id = u.user_id
+GROUP BY u.name
+ORDER BY total_spending DESC;

@@ -1,0 +1,1 @@
+6. Triggers are used for automatic category or balance updates because they run automatically when a specific event happens, such as inserting a new expense. This saves time and ensures updates happen consistently without manual effort.
