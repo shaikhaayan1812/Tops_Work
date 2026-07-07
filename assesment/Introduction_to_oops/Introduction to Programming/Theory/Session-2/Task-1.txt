@@ -1,0 +1,5 @@
+// Task 1: Verify GCC Installation
+// Open Command Prompt and type:
+// gcc --version
+// If GCC is installed, it will show the version information.
+// Task 2 & 3: Create hello.c

@@ -1,0 +1,57 @@
+// 1. Fixed Zomato Order Code
+// Errors Fixed:
+// total =+ prices[i] → total += prices[i] 
+// Declare loop variable i using let 
+// let items = ["Burger", "Pizza", "Fries"];
+// let prices = [120, 250, 90];
+// let total = 0;
+//// for (let i = 0; i < items.length; i++) {
+//     total += prices[i];
+// }
+//// console.log("Total price is: " + total);
+// Output:
+// Total price is: 460
+// 2. Improved Indentation and Comments
+// // Function to check whether a number is even
+// function isEven(num) {
+////     // Check if the number is divisible by 2
+//     if (num % 2 == 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// 3. formatFollowersCount Function
+// // Function to format follower count
+// function formatFollowersCount(count) {
+////     // Convert to Millions
+//     if (count >= 1000000) {
+//         return (count / 1000000).toFixed(1) + "M";
+//     }
+////     // Convert to Thousands
+//     else if (count >= 1000) {
+//         return (count / 1000).toFixed(1) + "K";
+//     }
+////     // Return as-is if below 1000
+//     else {
+//         return count.toString();
+//     }
+// }
+//// console.log(formatFollowersCount(1500));      // 1.5K
+// console.log(formatFollowersCount(1200000));   // 1.2M
+// console.log(formatFollowersCount(850));       // 850
+// 4. Fixed Even Numbers Program
+// Error: i % 2 = 0 should be i % 2 == 0
+// // Print all even numbers from 1 to 10
+// for (let i = 1; i <= 10; i++) {
+////     // Check if the number is even
+//     if (i % 2 == 0) {
+//         console.log(i);
+//     }
+// }
+// Output:
+// 2
+// 4
+// 6
+// 8
+// 10

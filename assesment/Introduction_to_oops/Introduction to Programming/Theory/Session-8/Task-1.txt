@@ -1,0 +1,18 @@
+// 1. getUserInitials Function
+// function getUserInitials(fullName) {
+//     let names = fullName.split(" ");
+//     return (names[0][0] + names[1][0]).toUpperCase();
+// }
+//// console.log(getUserInitials("Virat Kohli")); // VK
+// 2. addToCart Function (Pass by Reference)
+// function addToCart(cart, product) {
+//     cart.push(product);
+//     console.log("Updated Cart:", cart);
+// }
+//// let cart = ["Mobile", "Laptop"];
+// addToCart(cart, "Headphones");
+//// console.log("Cart Outside Function:", cart);
+// Output:
+// Updated Cart: [ 'Mobile', 'Laptop', 'Headphones' ]
+// Cart Outside Function: [ 'Mobile', 'Laptop', 'Headphones' ]
+// 3. Pass-by-Value vs Pass-by-Reference

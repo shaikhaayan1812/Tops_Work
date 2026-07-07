@@ -1,0 +1,31 @@
+// 1. calculateTotal Function
+// function calculateTotal(itemPrice, quantity) {
+//     return itemPrice * quantity;
+// }
+//// console.log(calculateTotal(200, 3)); // 600
+// 2. Flipkart Discount Calculator
+// let price = 1000;
+// let discount = 20;
+// let isMember = true;
+//// let finalPrice = price - (price * discount / 100);
+//// if (isMember) {
+//     finalPrice = finalPrice - (finalPrice * 5 / 100);
+// }
+//// console.log("Final Price:", finalPrice);
+// 3. isEligibleForOffer Function
+// function isEligibleForOffer(age, orderValue) {
+//     return age >= 18 && orderValue > 500;
+// }
+//// console.log(isEligibleForOffer(20, 600)); // true
+// 4. Instagram Trending Post Check
+// let likes = 1200;
+// let comments = 150;
+// let shares = 60;
+//// let trending = likes >= 1000 || (comments > 200 && shares >= 50);
+//// console.log("Trending:", trending);
+// 5. Pre-Increment vs Post-Increment
+// let followerCount = 100;
+//// console.log("Post-Increment:", followerCount++); // 100
+// console.log("After Post:", followerCount); // 101
+//// console.log("Pre-Increment:", ++followerCount); // 102
+// console.log("After Pre:", followerCount); // 102

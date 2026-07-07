@@ -1,0 +1,53 @@
+// 1. IPL Fan Bot (If-Else If)
+// let team = "MI";
+//// if (team === "MI") {
+//     console.log("Go Mumbai Indians!");
+// } else if (team === "CSK") {
+//     console.log("Chennai Super Kings for the win!");
+// } else if (team === "RCB") {
+//     console.log("Ee Sala Cup Namde!");
+// } else {
+//     console.log("Team not found!");
+// }
+// 2. Zomato Food Suggestion (Switch Case)
+// let meal = "lunch";
+//// switch (meal) {
+//     case "breakfast":
+//         console.log("Try Idli!");
+//         break;
+//     case "lunch":
+//         console.log("Try Biryani!");
+//         break;
+//     case "dinner":
+//         console.log("Try Paneer Butter Masala!");
+//         break;
+//     case "snack":
+//         console.log("Try Samosa!");
+//         break;
+//     default:
+//         console.log("Try some fruits!");
+// }
+// 3. Flipkart Discount Calculator (Nested If)
+// let amount = 2500;
+// let finalAmount;
+//// if (amount > 1000) {
+//     if (amount > 2000) {
+//         finalAmount = amount - (amount * 20 / 100);
+//     } else {
+//         finalAmount = amount - (amount * 10 / 100);
+//     }
+// } else {
+//     finalAmount = amount;
+// }
+//// console.log("Final Amount:", finalAmount);
+// 4. Age Eligibility Checker
+// let age = 26;
+//// if (age >= 18) {
+//     console.log("Eligible for Driving License");
+// }
+//// if (age >= 21) {
+//     console.log("Eligible for Credit Card");
+// }
+//// if (age >= 25) {
+//     console.log("Eligible for Car Rental");
+// }

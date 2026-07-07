@@ -1,0 +1,5 @@
+// Output:
+// ₹1,599
+// ₹24,999
+// ₹799
+// 5. Reusable Capitalize Function

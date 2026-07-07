@@ -1,0 +1,18 @@
+// Task-1
+// 1. What is a Program?
+// A program is a set of instructions that tells a computer what to do. Example: Zomato uses programs to help users order food online.
+// 2. Programming Languages
+// Python – Interpreted 
+// Java – Compiled 
+// JavaScript – Both 
+// 3. Flowchart (Book My Show)
+// Start → Open App → Select Movie → Choose Theatre → Select Seats → Make Payment → Receive Confirmation → End
+// 4. Algorithm (Swiggy)
+// Open Swiggy. 
+// Select restaurant. 
+// Choose food items. 
+// Add to cart. 
+// Proceed to payment. 
+// Make payment. 
+// Receive order confirmation. 
+// End. 

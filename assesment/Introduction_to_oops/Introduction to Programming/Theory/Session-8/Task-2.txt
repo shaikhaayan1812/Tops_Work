@@ -1,0 +1,18 @@
+// 4. formatPrice Function
+// function formatPrice(price) {
+//     return "₹" + price.toLocaleString("en-IN");
+// }
+//// console.log(formatPrice(1599));
+// console.log(formatPrice(24999));
+// console.log(formatPrice(799));
+// Output:
+// ₹1,599
+// ₹24,999
+// ₹799
+// 5. Reusable Capitalize Function
+// function capitalize(text) {
+//     return text.charAt(0).toUpperCase() + text.slice(1);
+// }
+//// console.log(capitalize("iphone"));     // Iphone
+// console.log(capitalize("ayan"));       // Ayan
+// console.log(capitalize("instagram"));  // Instagram

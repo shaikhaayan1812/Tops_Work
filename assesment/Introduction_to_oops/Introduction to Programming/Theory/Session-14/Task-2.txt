@@ -1,0 +1,3 @@
+// Output:
+// Total price is: 460
+// 2. Improved Indentation and Comments

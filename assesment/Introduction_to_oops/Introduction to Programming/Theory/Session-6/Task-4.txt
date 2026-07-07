@@ -1,0 +1,14 @@
+// Songs Example: Believer, ShapeOfYou, Perfect
+// 4. Entry-Controlled vs Exit-Controlled Loops
+// Entry-Controlled (while):
+// int i = 5;
+//// while(i < 5) {
+//     printf("Hello");
+// }
+// Output: Nothing prints because the condition is false at the start.
+// Exit-Controlled (do-while):
+// int i = 5;
+//// do {
+//     printf("Hello");
+// } while(i < 5);
+// Output: Hello prints once because the loop runs before checking the condition.

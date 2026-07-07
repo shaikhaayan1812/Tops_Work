@@ -1,0 +1,9 @@
+// Task 4: Compile and Run
+// Compile:
+// gcc hello.c -o hello
+// Run (Windows):
+// hello.exe
+// Run (Linux/Mac):
+// ./hello
+// Output:
+// hello
