@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Links Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="card">
+        <div class="intro">
+          <p class="eyebrow">Music Profiles</p>
+          <h1>Collect your favorite streaming links</h1>
+          <p>
+            Share your Spotify, YouTube Music, and Apple Music profile URLs in one place.
+          </p>
+        </div>
+
+        <form id="musicLinksForm" class="music-form">
+          <div class="field-group">
+            <label for="spotify">Spotify Profile URL</label>
+            <input
+              id="spotify"
+              name="spotify"
+              type="url"
+              placeholder="https://open.spotify.com/user/your-profile"
+              required
+            />
+          </div>
+
+          <div class="field-group">
+            <label for="youtube">YouTube Music Profile URL</label>
+            <input
+              id="youtube"
+              name="youtube"
+              type="url"
+              placeholder="https://music.youtube.com/channel/your-channel"
+              required
+            />
+          </div>
+
+          <div class="field-group">
+            <label for="apple">Apple Music Profile URL</label>
+            <input
+              id="apple"
+              name="apple"
+              type="url"
+              placeholder="https://music.apple.com/us/artist/your-name"
+              required
+            />
+          </div>
+
+          <button type="submit">Preview Links</button>
+        </form>
+
+        <section class="preview-section" aria-label="Preview cards">
+          <article class="preview-card spotify-card">
+            <div class="card-icon">♪</div>
+            <h2>Spotify</h2>
+            <p>Your Spotify profile link will appear here.</p>
+            <a href="#">Open Spotify profile</a>
+          </article>
+
+          <article class="preview-card youtube-card">
+            <div class="card-icon">▶</div>
+            <h2>YouTube Music</h2>
+            <p>Your YouTube Music profile link will appear here.</p>
+            <a href="#">Open YouTube Music</a>
+          </article>
+
+          <article class="preview-card apple-card">
+            <div class="card-icon">⌘</div>
+            <h2>Apple Music</h2>
+            <p>Your Apple Music profile link will appear here.</p>
+            <a href="#">Open Apple Music</a>
+          </article>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
