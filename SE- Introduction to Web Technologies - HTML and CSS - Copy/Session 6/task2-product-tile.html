@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Product Tile</title>
+    <style>
+        .product-tile {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 20px;
+            max-width: 200px;
+        }
+        .product-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .product-name {
+            display: block;
+            font-size: 18px;
+            margin: 10px 0;
+            padding: 5px;
+        }
+        .product-price {
+            display: inline-block;
+            font-weight: bold;
+            color: #388e3c;
+            padding: 5px;
+        }
+        .hide-price {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-tile">
+        <img src="https://via.placeholder.com/200x200?text=Product" alt="Product Image" class="product-image">
+        <span class="product-name">Samsung Galaxy S24</span>
+        <span class="product-price">₹79,999</span>
+    </div>
+    
+    <p>Toggle the class 'hide-price' on the price element to hide it.</p>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Components - Tasks 1-5</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Task 1: Spotify-style Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-spotify"></i> MusicPlaylist
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Playlists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container my-4">
+        <h1 class="mb-4">Session 10: Bootstrap Components</h1>
+        
+        <!-- Task 2: Flipkart Product Card -->
+        <section class="mb-5">
+            <h2>Task 2: Flipkart Product Card</h2>
+            <div class="card" style="max-width: 400px;">
+                <img src="https://via.placeholder.com/400x300?text=Samsung+Phone" class="card-img-top" alt="Samsung Phone">
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy S24</h5>
+                    <p class="card-text">₹79,999</p>
+                    <p class="card-text">Latest flagship with AI features and stunning display.</p>
+                    <a href="#" class="btn btn-warning">Buy Now</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Task 3: BookMyShow Movie Carousel -->
+        <section class="mb-5">
+            <h2>Task 3: BookMyShow Movie Carousel</h2>
+            <div id="movieCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://via.placeholder.com/800x400?text=Movie+1" class="d-block w-100" alt="Movie 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Inception</h5>
+                            <p>Sci-Fi Thriller - Now Showing</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://via.placeholder.com/800x400?text=Movie+2" class="d-block w-100" alt="Movie 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>The Dark Knight</h5>
+                            <p>Action Drama - Special Premiere</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://via.placeholder.com/800x400?text=Movie+3" class="d-block w-100" alt="Movie 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Interstellar</h5>
+                            <p>Space Adventure - Coming Soon</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#movieCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#movieCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+        <!-- Task 4: Zomato Review Form -->
+        <section class="mb-5">
+            <h2>Task 4: Zomato Restaurant Review</h2>
+            <form style="max-width: 500px;">
+                <div class="mb-3">
+                    <label for="reviewerName" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="reviewerName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="rating" class="form-label">Rating (1-5 stars)</label>
+                    <select class="form-select" id="rating" required>
+                        <option value="" selected disabled>Select rating</option>
+                        <option value="1">1 Star</option>
+                        <option value="2">2 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="5">5 Stars</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="reviewMessage" class="form-label">Your Review</label>
+                    <textarea class="form-control" id="reviewMessage" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Submit Review</button>
+            </form>
+        </section>
+        
+        <!-- Task 5: Filter Buttons -->
+        <section class="mb-5">
+            <h2>Task 5: Food Delivery Filter Buttons</h2>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-outline-secondary active">All</button>
+                <button type="button" class="btn btn-outline-success">Veg</button>
+                <button type="button" class="btn btn-outline-danger">Non-Veg</button>
+                <button type="button" class="btn btn-outline-warning">Desserts</button>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

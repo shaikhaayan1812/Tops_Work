@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Grid</title>
+    <style>
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            padding: 10px;
+        }
+        .product-image {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .product-name {
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+        .product-price {
+            color: #388e3c;
+            font-weight: bold;
+        }
+        
+        /* Tablet screens (768px to 1024px) */
+        @media screen and (max-width: 1024px) {
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        /* Mobile screens (up to 768px) */
+        @media screen and (max-width: 768px) {
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Product Grid</h1>
+    <p>Resize the browser window to see the grid change from 3 columns to 2 columns to 1 column.</p>
+    
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x150?text=Product+1" alt="Product 1" class="product-image">
+            <div class="product-name">Wireless Headphones</div>
+            <div class="product-price">₹2,999</div>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x150?text=Product+2" alt="Product 2" class="product-image">
+            <div class="product-name">Smart Watch</div>
+            <div class="product-price">₹4,999</div>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x150?text=Product+3" alt="Product 3" class="product-image">
+            <div class="product-name">Bluetooth Speaker</div>
+            <div class="product-price">₹1,999</div>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x150?text=Product+4" alt="Product 4" class="product-image">
+            <div class="product-name">Power Bank</div>
+            <div class="product-price">₹1,499</div>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x150?text=Product+5" alt="Product 5" class="product-image">
+            <div class="product-name">Laptop Stand</div>
+            <div class="product-price">₹899</div>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x150?text=Product+6" alt="Product 6" class="product-image">
+            <div class="product-name">USB Hub</div>
+            <div class="product-price">₹699</div>
+        </div>
+    </div>
+</body>
+</html>

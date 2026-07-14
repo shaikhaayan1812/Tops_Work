@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Artist Landing Page - Session 12</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        /* Custom styles for cohesive design */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .profile-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+        }
+        .playlist-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+        }
+        .social-icon {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #6c757d;
+            transition: color 0.3s ease;
+        }
+        .social-icon:hover {
+            color: #495057;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Task 4: Sticky Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-music-note-beamed"></i> MelodyMaker
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Task 1: Profile Section with Bio and Social Buttons -->
+    <section id="home" class="profile-section text-center">
+        <div class="container">
+            <img src="https://via.placeholder.com/150x150?text=Artist" class="rounded-circle mb-4" alt="Artist Profile">
+            <h1>Alex Melody</h1>
+            <p class="lead mb-4">Grammy-nominated artist blending electronic beats with soulful melodies. Creating music that moves hearts and souls since 2015.</p>
+            
+            <!-- Bootstrap Icons for Social Media -->
+            <div class="mb-4">
+                <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-spotify"></i></a>
+            </div>
+            
+            <a href="#about" class="btn btn-light btn-lg">Learn More</a>
+        </div>
+    </section>
+    
+    <!-- Task 2: Featured Playlists -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Playlists</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card playlist-card h-100">
+                        <img src="https://via.placeholder.com/300x300?text=Playlist+1" class="card-img-top" alt="Playlist 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Summer Vibes 2026</h5>
+                            <p class="card-text">15 tracks of pure summer energy</p>
+                            <a href="#" class="btn btn-primary">Listen Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card playlist-card h-100">
+                        <img src="https://via.placeholder.com/300x300?text=Playlist+2" class="card-img-top" alt="Playlist 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Chill Acoustics</h5>
+                            <p class="card-text">Relaxing acoustic sessions</p>
+                            <a href="#" class="btn btn-primary">Listen Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card playlist-card h-100">
+                        <img src="https://via.placeholder.com/300x300?text=Playlist+3" class="card-img-top" alt="Playlist 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Workout Mix</h5>
+                            <p class="card-text">High-energy beats for your workout</p>
+                            <a href="#" class="btn btn-primary">Listen Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Task 3: Product Showcase (Flipkart-style) -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Merchandise</h2>
+            <div class="row">
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/250x250?text=T-Shirt" class="card-img-top" alt="T-Shirt">
+                        <div class="card-body">
+                            <h6 class="card-title">Artist T-Shirt</h6>
+                            <p class="card-text text-success">₹999</p>
+                            <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/250x250?text=Hoodie" class="card-img-top" alt="Hoodie">
+                        <div class="card-body">
+                            <h6 class="card-title">Signature Hoodie</h6>
+                            <p class="card-text text-success">₹2,499</p>
+                            <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/250x250?text=Cap" class="card-img-top" alt="Cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Baseball Cap</h6>
+                            <p class="card-text text-success">₹599</p>
+                            <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/250x250?text=Mug" class="card-img-top" alt="Mug">
+                        <div class="card-body">
+                            <h6 class="card-title">Coffee Mug</h6>
+                            <p class="card-text text-success">₹399</p>
+                            <button class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Task 5: Footer with Social Icons -->
+    <footer id="contact" class="py-4">
+        <div class="container text-center">
+            <div class="mb-3">
+                <a href="#" class="social-icon text-white"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="social-icon text-white"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="social-icon text-white"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="social-icon text-white"><i class="bi bi-youtube"></i></a>
+            </div>
+            <p class="mb-0">&copy; 2026 MelodyMaker. All rights reserved.</p>
+            <p class="mb-0">Contact: info@melodymaker.com</p>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

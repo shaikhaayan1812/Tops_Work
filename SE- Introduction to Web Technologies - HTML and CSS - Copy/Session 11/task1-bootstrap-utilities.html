@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Utilities - Tasks 1-5</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS for Task 4 -->
+    <link rel="stylesheet" href="custom-styles.css">
+</head>
+<body>
+    <div class="container my-4">
+        <h1 class="mb-4">Session 11: Bootstrap Utilities & Customization</h1>
+        
+        <!-- Task 1: Spacing utilities for Flipkart product -->
+        <section class="mb-5">
+            <h2>Task 1: Spacing Utilities</h2>
+            <div class="card mx-auto" style="max-width: 400px;">
+                <div class="p-3 m-2 bg-light border">
+                    <img src="https://via.placeholder.com/350x250?text=Product+Image" class="card-img-top mb-3" alt="Product">
+                    <div class="px-3 pb-3">
+                        <h5 class="card-title mb-2">iPhone 15 Pro</h5>
+                        <p class="card-text mb-3">₹1,59,999</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Task 2: Typography utilities for movie review -->
+        <section class="mb-5">
+            <h2>Task 2: Typography Utilities</h2>
+            <div class="card" style="max-width: 500px;">
+                <div class="card-body">
+                    <h3 class="card-title fw-bold">Inception</h3>
+                    <p class="text-muted fst-italic mb-2">Sci-Fi, Thriller</p>
+                    <p class="fs-4 text-success fw-bold mb-3">Rating: 8.8/10</p>
+                    <p class="card-text fs-5 lh-lg">A masterpiece of modern cinema that explores the nature of reality through dreams.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Task 3: Color utilities for restaurant list -->
+        <section class="mb-5">
+            <h2>Task 3: Color Utilities</h2>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Paradise</h5>
+                            <p class="text-success fw-bold">Rating: 4.5 ★</p>
+                            <p class="text-danger">20% OFF on first order!</p>
+                            <span class="badge bg-success">Open Now</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Burger Barn</h5>
+                            <p class="text-success fw-bold">Rating: 4.2 ★</p>
+                            <p class="text-primary">Free delivery on orders above ₹500</p>
+                            <span class="badge bg-danger">Closed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Task 4: Custom button override (styles in custom-styles.css) -->
+        <section class="mb-5">
+            <h2>Task 4: Custom Button Override</h2>
+            <button class="btn btn-primary">Default Bootstrap Primary</button>
+            <button class="btn btn-custom-primary">Custom Styled Primary</button>
+            <button class="btn btn-book-ticket">Book Ticket (Custom)</button>
+        </section>
+        
+        <!-- Task 5: Theme Switcher -->
+        <section class="mb-5">
+            <h2>Task 5: Theme Switcher</h2>
+            <div id="themeContainer" class="p-4 bg-light text-dark rounded">
+                <h4>Theme Content</h4>
+                <p>This container toggles between light and dark themes using Bootstrap utility classes.</p>
+                <button id="themeToggle" class="btn btn-secondary">Toggle Theme</button>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JavaScript for Theme Switcher -->
+    <script>
+        document.getElementById('themeToggle').addEventListener('click', function() {
+            const container = document.getElementById('themeContainer');
+            if (container.classList.contains('bg-light')) {
+                container.classList.remove('bg-light', 'text-dark');
+                container.classList.add('bg-dark', 'text-light');
+            } else {
+                container.classList.remove('bg-dark', 'text-light');
+                container.classList.add('bg-light', 'text-dark');
+            }
+        });
+    </script>
+</body>
+</html>

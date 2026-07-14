@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart-style Product Review</title>
+</head>
+<body>
+    <h1>Product Review</h1>
+    
+    <!-- 
+        Task 3: After submitting a test review, open the DevTools Network tab to preview the POST request data.
+        The form uses method="POST" which sends data to the server. 
+        In DevTools Network tab, you can see the form data in the Payload section.
+    -->
+    
+    <form action="#" method="POST">
+        <div>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <br>
+        <div>
+            <label for="rating">Rating:</label><br>
+            <select id="rating" name="rating" required>
+                <option value="" disabled selected>Select a rating</option>
+                <option value="1">1 - Poor</option>
+                <option value="2">2 - Fair</option>
+                <option value="3">3 - Good</option>
+                <option value="4">4 - Very Good</option>
+                <option value="5">5 - Excellent</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="review">Review Message:</label><br>
+            <textarea id="review" name="review" rows="5" cols="40" required minlength="20" placeholder="Write at least 20 characters..."></textarea>
+        </div>
+        <br>
+        <button type="submit">Submit Review</button>
+    </form>
+</body>
+</html>

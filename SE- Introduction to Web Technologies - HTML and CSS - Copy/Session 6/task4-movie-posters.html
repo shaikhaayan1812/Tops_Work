@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Movie Posters</title>
+    <style>
+        .poster-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .poster-container {
+            position: relative;
+            width: 200px;
+            height: 300px;
+        }
+        .movie-poster {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .new-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #db1c22;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Now Showing</h1>
+    
+    <div class="poster-grid">
+        <div class="poster-container">
+            <img src="https://via.placeholder.com/200x300?text=Movie+1" alt="Movie 1" class="movie-poster">
+            <div class="new-badge">NEW</div>
+        </div>
+        <div class="poster-container">
+            <img src="https://via.placeholder.com/200x300?text=Movie+2" alt="Movie 2" class="movie-poster">
+        </div>
+        <div class="poster-container">
+            <img src="https://via.placeholder.com/200x300?text=Movie+3" alt="Movie 3" class="movie-poster">
+        </div>
+        <div class="poster-container">
+            <img src="https://via.placeholder.com/200x300?text=Movie+4" alt="Movie 4" class="movie-poster">
+        </div>
+    </div>
+</body>
+</html>

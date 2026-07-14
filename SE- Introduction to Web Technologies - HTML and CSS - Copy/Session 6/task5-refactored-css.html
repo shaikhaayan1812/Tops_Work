@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refactored Restaurant Card</title>
+    <style>
+        /* 
+         * Refactored CSS using reusable classes to reduce repetition.
+         * This improves maintainability by:
+         * 1. Reducing code duplication - margins and paddings defined once
+         * 2. Making changes easier - modify one class instead of multiple elements
+         * 3. Ensuring consistency - same spacing applied uniformly
+         * 4. Improving readability - clear class names describe purpose
+         */
+        
+        /* Reusable spacing classes */
+        .margin-small { margin: 5px; }
+        .margin-medium { margin: 10px; }
+        .margin-large { margin: 20px; }
+        
+        .padding-small { padding: 5px; }
+        .padding-medium { padding: 10px; }
+        .padding-large { padding: 15px; }
+        
+        /* Card component */
+        .restaurant-card {
+            border: 2px solid #e0e0e0;
+            max-width: 300px;
+        }
+        
+        .restaurant-name {
+            font-size: 24px;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .cuisine-type {
+            font-style: italic;
+            color: #666;
+        }
+        
+        .rating {
+            background-color: #cb202d;
+            color: white;
+            border-radius: 4px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="restaurant-card margin-large padding-large">
+        <div class="restaurant-name margin-medium padding-small">Pizza Paradise</div>
+        <div class="cuisine-type margin-small padding-small">Italian, Pizza, Pasta</div>
+        <div class="rating padding-small margin-small">4.5 ★</div>
+    </div>
+</body>
+</html>

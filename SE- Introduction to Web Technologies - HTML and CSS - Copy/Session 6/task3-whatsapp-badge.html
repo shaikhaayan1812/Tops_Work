@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Notification Badge</title>
+    <style>
+        body {
+            height: 2000px; /* To enable scrolling */
+            margin: 0;
+            padding: 20px;
+        }
+        .whatsapp-badge {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            cursor: pointer;
+            z-index: 1000;
+        }
+        .whatsapp-badge:hover {
+            background-color: #128c7e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Scroll down to see the fixed badge</h1>
+    <p>This page has a fixed WhatsApp notification badge that stays at the bottom right corner.</p>
+    
+    <div class="whatsapp-badge">
+        Chat with us!
+    </div>
+</body>
+</html>

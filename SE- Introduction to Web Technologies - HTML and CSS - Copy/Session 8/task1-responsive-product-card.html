@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flipkart Product Card</title>
+    <style>
+        /* Task 1: Meta viewport tag included above */
+        
+        /* Base styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        .product-card {
+            display: flex;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .product-image {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .product-details {
+            flex: 2;
+            padding: 20px;
+        }
+        
+        .product-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .product-price {
+            font-size: 20px;
+            color: #388e3c;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .product-description {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        
+        .buy-button {
+            background-color: #2874f0;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .buy-button:hover {
+            background-color: #1a5dc0;
+        }
+        
+        /* Task 3: Breakpoints at 600px, 900px, 1200px */
+        
+        /* Desktop (default) */
+        @media only screen and (max-width: 1200px) {
+            .product-card {
+                max-width: 700px;
+            }
+            .product-title {
+                font-size: 22px;
+            }
+            .product-details {
+                padding: 15px;
+            }
+        }
+        
+        /* Tablet */
+        @media only screen and (max-width: 900px) {
+            .product-card {
+                max-width: 600px;
+            }
+            .product-title {
+                font-size: 20px;
+            }
+            .product-price {
+                font-size: 18px;
+            }
+            .product-details {
+                padding: 12px;
+            }
+        }
+        
+        /* Mobile */
+        @media only screen and (max-width: 600px) {
+            /* Task 2: Switch from horizontal to vertical layout */
+            .product-card {
+                flex-direction: column;
+                max-width: 100%;
+            }
+            .product-image {
+                min-width: 100%;
+                height: 200px;
+            }
+            .product-title {
+                font-size: 18px;
+            }
+            .product-price {
+                font-size: 16px;
+            }
+            .product-details {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <div class="product-image">
+            <img src="https://via.placeholder.com/400x300?text=iPhone+15+Pro" alt="iPhone 15 Pro">
+        </div>
+        <div class="product-details">
+            <h2 class="product-title">iPhone 15 Pro Max</h2>
+            <div class="product-price">₹1,59,999</div>
+            <p class="product-description">The most powerful iPhone ever with A17 Pro chip, titanium design, and advanced camera system. Features a 6.7-inch Super Retina XDR display with ProMotion technology.</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </div>
+    
+    <div style="margin-top: 40px; text-align: center; color: #666;">
+        <p>Task 4: Test by resizing browser window. Screenshots should be taken at:</p>
+        <ul style="list-style-position: inside; margin-top: 10px;">
+            <li>Desktop: &gt; 1200px width - Horizontal layout, larger text</li>
+            <li>Tablet: 601px - 900px width - Horizontal layout, medium text</li>
+            <li>Mobile: ≤ 600px width - Vertical layout, smaller text</li>
+        </ul>
+    </div>
+</body>
+</html>

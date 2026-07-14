@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Movie Details</title>
+    <style>
+        /* Light mode theme */
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        /* Dark mode theme */
+        body.dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        
+        .movie-container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .movie-title {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .movie-poster {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 20px 0;
+        }
+        
+        .toggle-btn {
+            background-color: #db1c22;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        .toggle-btn:hover {
+            background-color: #b0161c;
+        }
+    </style>
+</head>
+<body>
+    <div class="movie-container">
+        <h1 class="movie-title">Inception</h1>
+        <img src="https://via.placeholder.com/300x450?text=Inception+Movie" alt="Inception Movie Poster" class="movie-poster">
+        
+        <div class="movie-details">
+            <p><strong>Director:</strong> Christopher Nolan</p>
+            <p><strong>Genre:</strong> Sci-Fi, Action, Thriller</p>
+            <p><strong>Rating:</strong> 8.8/10</p>
+            <p><strong>Duration:</strong> 2h 28min</p>
+            <p>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.</p>
+        </div>
+        
+        <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+    
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>

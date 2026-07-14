@@ -1,0 +1,28 @@
+/* Task 4: Override Bootstrap primary button color */
+/* This file must be linked AFTER Bootstrap CSS to properly override */
+
+/* Custom primary button - override Bootstrap's default blue */
+.btn-custom-primary {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+    color: white;
+}
+
+.btn-custom-primary:hover {
+    background-color: #ee5a5a;
+    border-color: #ee5a5a;
+    color: white;
+}
+
+/* Another custom button for booking tickets */
+.btn-book-ticket {
+    background-color: #4ecdc4;
+    border-color: #4ecdc4;
+    color: white;
+}
+
+.btn-book-ticket:hover {
+    background-color: #3dbdb5;
+    border-color: #3dbdb5;
+    color: white;
+}
