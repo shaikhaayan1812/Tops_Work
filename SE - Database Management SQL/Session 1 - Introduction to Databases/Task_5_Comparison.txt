@@ -1,0 +1,19 @@
+MySQL
+MySQL zyada tar websites aur web applications me use hota hai.
+Ye easy hai aur PHP, Python, Java ke saath achha kaam karta hai.
+Small aur medium projects me bahut common hai.
+
+PostgreSQL
+PostgreSQL advanced queries aur accurate data ke liye use hota hai.
+Finance, analytics, GIS aur bade web applications me iska use hota hai.
+Ye complex kaam ke liye strong database hai.
+
+Oracle
+Oracle bade companies, banks, telecom aur government systems me use hota hai.
+Isme security, backup aur performance ke strong features milte hain.
+Ye mostly enterprise level projects me use hota hai.
+
+SQLite
+SQLite ek lightweight database hai.
+Iska data ek hi file me store hota hai.
+Ye Android apps, mobile apps, testing aur small offline apps me use hota hai.

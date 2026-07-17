@@ -1,0 +1,21 @@
+Session 5: Joins aur table relationship
+
+Task 1:
+Do tables banao:
+1. influencers
+2. posts
+
+influencers me influencer_id primary key hona chahiye.
+posts me influencer_id foreign key hona chahiye.
+
+Kam se kam 3 influencers aur har influencer ke 2 posts add karo.
+
+Task 2:
+INNER JOIN use karke post caption aur influencer ka naam dikhao.
+
+Task 3:
+LEFT JOIN use karke sab influencers dikhao.
+Jiska post nahi hai uske caption me `No Posts` dikhao.
+
+Task 4:
+RIGHT JOIN use karke sab posts aur influencer ka naam dikhao.

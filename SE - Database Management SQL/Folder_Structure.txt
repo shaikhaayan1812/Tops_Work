@@ -1,0 +1,38 @@
+- GitHub_Submission_Steps.txt
+[Folder] Mini Project 3 - Expense Tracker DB
+    - Expense_Tracker_Project.sql
+    - Portal_Playlist_Tasks.sql
+    - Questions.txt
+- README.md
+[Folder] Session 1 - Introduction to Databases
+    - ADD_YOUR_SCREENSHOT_HERE.txt
+    - Questions.txt
+    - Session_1.sql
+    - Task_5_Comparison.txt
+[Folder] Session 2 - SQL Basics and Commands
+    - Questions.txt
+    - Session_2.sql
+[Folder] Session 3 - DML Operations
+    - Questions.txt
+    - Session_3.sql
+[Folder] Session 4 - Data Retrieval with SELECT
+    - Questions.txt
+    - Session_4.sql
+[Folder] Session 5 - Joins and Relationships
+    - Questions.txt
+    - Session_5.sql
+[Folder] Session 6 - Grouping and Subqueries
+    - Questions.txt
+    - Session_6.sql
+[Folder] Session 7 - Constraints and Views
+    - Questions.txt
+    - Session_7.sql
+[Folder] Session 8 - Introduction to PL_SQL
+    - Products_Setup.sql
+    - Questions.txt
+    - Session_8_PL_SQL.sql
+[Folder] Session 9 - Transactions and Error Handling
+    - Questions.txt
+    - Session_9.sql
+    - Task_5_Buggy_Trigger_and_Fix.sql
+    - Task_5_Explanation.txt

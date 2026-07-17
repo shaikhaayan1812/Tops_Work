@@ -1,0 +1,14 @@
+Session 3: Insert, Update aur Delete
+
+Task 1:
+Restaurants table banao aur 5 restaurants ka data add karo.
+Har restaurant ka cuisine aur rating alag rakho.
+
+Task 2:
+Spice Villa ki rating 4.7 karo.
+
+Task 3:
+Jinki rating 3.5 se kam hai un restaurants ko delete karo.
+
+Task 4:
+Ahmedabad ke top 2 restaurants dikhao jinki rating 4.0 se zyada ho.

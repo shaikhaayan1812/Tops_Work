@@ -1,0 +1,16 @@
+GitHub par submit karne ke easy steps
+
+1. Apna Tops_Work repository wala folder kholo.
+2. Ye pura folder uske andar copy karo.
+3. Har session ke screenshot uske folder me add karo.
+4. Repository folder me terminal kholo.
+5. Ye commands chalao:
+
+git add .
+git commit -m "Add SQL and PL SQL assignments"
+git push origin main
+
+6. GitHub website par repository kholo.
+7. Is module folder ko open karo.
+8. Browser ka URL copy karo.
+9. Portal me Final Module Assignment URL me paste karo.

@@ -1,0 +1,22 @@
+Session 8: PL/SQL ka introduction
+
+Task 1:
+Ek user ka name VARCHAR2 variable me aur age NUMBER variable me store karo.
+Dono ko DBMS_OUTPUT.PUT_LINE se print karo.
+
+Task 2:
+IF condition use karke check karo order amount 500 se zyada hai ya nahi.
+Zyada ho to `Eligible for free delivery` print karo.
+Nahi ho to `Delivery charges apply` print karo.
+
+Task 3:
+Simple LOOP use karke 1 se 5 tak number print karo.
+Counter aur EXIT WHEN use karo.
+
+Task 4:
+PRODUCTS table se PRODUCT_NAME nikalne ke liye cursor banao.
+Har product ka naam print karo.
+
+Task 5:
+Do numbers divide karo.
+Agar second number 0 ho to exception handle karke `Cannot divide by zero` print karo.

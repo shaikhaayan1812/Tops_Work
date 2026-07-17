@@ -1,0 +1,19 @@
+Mini Project 3: Expense Tracker Database
+
+Main project:
+Personal Expense Tracker App ka database backend banana hai.
+
+Kaam:
+1. users table banana
+2. categories table banana
+3. transactions table banana
+4. CRUD queries likhna
+5. Monthly summary ke liye stored procedure banana
+6. MySQL Workbench me test karna
+
+Portal ke extra tasks:
+1. playlists table banana
+2. Workout Mix, Chill Vibes aur Top Hits insert karna
+3. Chill Vibes ko Evening Chill rename karna
+4. Workout Mix delete karna
+5. GetMonthlyPlaylistCount procedure banana

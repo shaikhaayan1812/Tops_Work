@@ -1,0 +1,14 @@
+Session 6: GROUP BY, HAVING aur subquery
+
+Task 1:
+orders table me har user ne kitne orders kiye hain wo GROUP BY se dikhao.
+
+Task 2:
+restaurants table me jinki average rating 4.0 se zyada hai un restaurants ke naam dikhao.
+GROUP BY aur HAVING use karo.
+
+Task 3:
+payments table me aise user_id nikalo jinhone kisi ek payment me 2000 se zyada pay kiya ho.
+
+Task 4:
+Aise movies ke naam dikhao jinki average rating sabhi movies ki overall average rating se zyada hai.

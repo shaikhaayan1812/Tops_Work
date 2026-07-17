@@ -1,0 +1,24 @@
+Session 7: Constraints aur Views
+
+Task 1:
+Restaurant table banao.
+id ko primary key rakho.
+name aur location ko NOT NULL rakho.
+
+Task 2:
+FoodOrder table banao.
+order_id primary key ho.
+restaurant_id ko Restaurant(id) se foreign key se connect karo.
+
+Task 3:
+SpotifyUser table banao.
+username UNIQUE ho aur email NOT NULL ho.
+6 users ka data add karo.
+
+Task 4:
+TopSpendersView naam ka view banao.
+Usme username aur order_total dikhao jaha order_total 1000 se zyada ho.
+
+Task 5:
+Sirf TopSpendersView use karke wo users dikhao jinhone 2000 se zyada spend kiya hai.
+Result high amount se low amount me sort karo.

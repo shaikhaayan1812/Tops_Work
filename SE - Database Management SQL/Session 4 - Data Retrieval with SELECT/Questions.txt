@@ -1,0 +1,25 @@
+Session 4: SELECT se data dekhna
+
+Task 1:
+Playlist table banao aur kam se kam 5 songs ka data add karo.
+
+Columns:
+- id
+- song_name
+- artist
+- genre
+- play_count
+
+Task 2:
+Sirf song_name aur artist dikhao.
+Artist column ka naam output me `Singer` dikhao.
+
+Task 3:
+Pop genre ke wo songs dikhao jinka play_count 100 se zyada hai.
+Result ko play_count ke hisab se high se low sort karo.
+
+Task 4:
+Hip-Hop genre me kitne songs hain wo count karo.
+
+Task 5:
+Har genre ke total plays SUM aur GROUP BY se dikhao.

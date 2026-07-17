@@ -1,0 +1,5 @@
+
+
+1. MySQL Workbench connected ho
+2. Left side me Schemas panel ho
+3. Default databases dikh rahe ho

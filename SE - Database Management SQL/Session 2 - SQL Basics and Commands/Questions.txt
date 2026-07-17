@@ -1,0 +1,25 @@
+Session 2: SQL basic commands
+
+Task 1:
+`restaurants` naam ka table banao.
+
+Columns:
+- id INT primary key auto increment
+- name VARCHAR(100)
+- location VARCHAR(100)
+- rating DECIMAL(2,1)
+
+Task 2:
+ALTER TABLE use karke `average_cost` naam ka INT column add karo.
+
+Task 3:
+restaurants table ko DROP karo.
+
+Task 4:
+`playlists` naam ka table banao.
+
+Columns:
+- playlist_id INT primary key auto increment
+- title VARCHAR(50)
+- created_by VARCHAR(50)
+- created_at DATE

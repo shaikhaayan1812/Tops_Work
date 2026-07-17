@@ -1,0 +1,33 @@
+Session 1: Database ka basic introduction
+
+Task 1:
+MySQL Workbench install karo, local MySQL server se connect karo aur Schemas panel me jo default databases dikh rahe hain unka screenshot lo.
+
+Task 2:
+`InstaClone` naam ka database banao.
+Uske andar `Users` naam ka table banao.
+
+Columns:
+- user_id INT primary key
+- username VARCHAR
+- email VARCHAR
+- followers_count INT
+
+Task 3:
+Users table me 3 sample users ka data add karo.
+Instagram jaisa username aur followers count use karo.
+
+Task 4:
+`Posts` naam ka table banao.
+
+Columns:
+- post_id INT primary key
+- user_id INT
+- caption VARCHAR
+- post_date DATE
+
+Posts.user_id ko Users.user_id ke saath foreign key se connect karo.
+
+Task 5:
+MySQL, PostgreSQL, Oracle aur SQLite ka chhota comparison likho.
+Ye bhi likho ki kaunsa database kaha use hota hai.

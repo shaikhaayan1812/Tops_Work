@@ -1,0 +1,17 @@
+Galat trigger me kya problem thi:
+
+Galat trigger me purchase amount ko balance me add kiya gaya tha.
+Isliye payment karne ke baad balance kam hone ki jagah badh raha tha.
+
+Example:
+Balance 1000 tha.
+Purchase amount 200 tha.
+Galat result 1200 aa raha tha.
+
+Maine kya fix kiya:
+
+Plus sign ki jagah minus sign use kiya:
+
+balance = balance - NEW.purchase_amount
+
+Ab 1000 me se 200 spend karne par balance 800 aata hai.

@@ -1,0 +1,26 @@
+Session 9: COMMIT, ROLLBACK, SAVEPOINT aur Trigger
+
+Task 1:
+Orders table me new order insert karo.
+COMMIT use karke data save karo.
+Phir SELECT se check karo data save hua ya nahi.
+
+Task 2:
+OrderItems table me 2 items insert karo.
+COMMIT se pehle ROLLBACK karo.
+Phir check karo items delete hue ya nahi.
+
+Task 3:
+Cart table me pehla product add karo.
+SAVEPOINT banao.
+Dusra product add karo.
+ROLLBACK TO SAVEPOINT use karke sirf dusra product hatao.
+
+Task 4:
+Wallet table par trigger banao.
+Jab new transaction insert ho tab purchase amount wallet balance se minus ho.
+
+Task 5:
+Ek galat trigger ka example banao.
+Usko test karo.
+Phir sahi trigger likho aur short me samjhao galti kya thi.
