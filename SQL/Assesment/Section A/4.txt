@@ -1,1 +1,0 @@
-4. A rollback is required when an expense entry is partially processed but an error occurs before the transaction is complete. For example, if the expense is added but the balance update fails, rollback will undo the incomplete change.

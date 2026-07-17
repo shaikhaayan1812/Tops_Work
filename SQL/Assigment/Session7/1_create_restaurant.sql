@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXISTS Restaurant (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    location VARCHAR(255) NOT NULL,
-    cuisine VARCHAR(100)
-);

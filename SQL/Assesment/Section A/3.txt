@@ -1,1 +1,0 @@
-3. GROUP BY helps analyze spending patterns by grouping rows with the same value, such as category or month, and then calculating totals. This makes it easier to see where money is being spent most.

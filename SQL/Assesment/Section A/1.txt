@@ -1,1 +1,0 @@
-1. Relational databases help maintain accuracy in expense records by storing data in structured tables with relationships, so expenses, categories, and users are linked properly. This reduces duplication, prevents inconsistent entries, and makes it easier to verify records.
