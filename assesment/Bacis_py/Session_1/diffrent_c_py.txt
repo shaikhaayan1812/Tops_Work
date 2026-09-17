@@ -1,0 +1,16 @@
+
+C: Translate the whole book before reading it.
+Java: Translate the book into a common language (bytecode), then JVM reads it.
+Python: Python's runtime handles the code execution for you, rather than producing a native executable ahead of time.
+
+
+| Language   | What happens?                                  |
+| ---------- | ---------------------------------------------- |
+| Python| Source → Bytecode → Python VM                  |
+| C     | Source → Machine Code → CPU                    |
+| Java  | Source → Bytecode → JVM → Machine instructions |
+
+
+
+python has a not requred by datatype and is automaticy use to datatype and 
+pthone is a easy read and write langauge.   
