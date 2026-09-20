@@ -7,3 +7,5 @@ select=int(input("Enter the contyty"))
 item = input("Enter the item name")
 
 bill = select * item
+
+print(bill)
