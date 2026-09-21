@@ -1,5 +1,3 @@
-#  While Loop and Patterns
-#  Pyramid with 4 rows
 
 row = 1
 while row <= 4:
