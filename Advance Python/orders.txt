@@ -1,0 +1,5 @@
+Pizza - rs250
+Burger - rs180
+Biryani - rs220
+Sandwich - rs150
+Pasta - rs200

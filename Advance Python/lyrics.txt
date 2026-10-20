@@ -1,0 +1,4 @@
+Hello my friend
+This is a simple song
+We are learning Python
+File handling is easy
